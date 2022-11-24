@@ -334,7 +334,7 @@ sdu() { udisksctl unmount -b /dev/$1; }
 
 # }}}
 # History {{{
-export HISTFILE=~/.zsh/histfile
+export HISTFILE=$ZDOTDIR/histfile
 export HISTSIZE=10000
 export SAVEHIST=500000
 readonly HISTFILE
@@ -646,7 +646,7 @@ autoload colors && colors
 stty -ctlecho
 
 # machine dependent stuff
-source $HOME/.zshrc.local
+source $ZDOTDIR/zshrc.local
 
 if [[ -e $HOME/git/dotfiles/.zsh/zsh-syntax-highlighting-git/zsh-syntax-highlighting.zsh ]]; then
 	source $HOME/git/dotfiles/.zsh/zsh-syntax-highlighting-git/zsh-syntax-highlighting.zsh
