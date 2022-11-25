@@ -25,4 +25,5 @@ return require('packer').startup(function(use)
 
   -- Colors
   use 'morhetz/gruvbox'
+  use 'jacoborus/tender.vim'
 end)
