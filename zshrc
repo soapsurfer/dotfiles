@@ -419,9 +419,6 @@ alias vp='PAGER=vimpager'
 alias v='vim'
 alias l='less'
 
-alias sc='screen'
-alias scw='screen -X eval "chdir $PWD"'
-
 alias g='git'
 alias xc="xclip"
 alias xcp="xclip -o | fb"
