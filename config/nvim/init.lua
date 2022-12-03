@@ -1,2 +1,1 @@
 require("soapsurfer")
-print("hello")
