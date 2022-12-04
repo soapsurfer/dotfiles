@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   use 'rodjek/vim-puppet'
+  use "lukas-reineke/indent-blankline.nvim"
 
   -- Telescope - Fuzzy file searching
   use {
