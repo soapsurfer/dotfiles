@@ -13,11 +13,6 @@ vim.opt.incsearch = true
 vim.opt.smartindent = true
 
 vim.opt.wrap = true
-
-vim.g.mapleader = " "
-
-
 vim.opt.undodir = vim.fn.expand('~/.local/share/nvim/undo//')
 vim.opt.backupdir = vim.fn.expand('~/.config/nvim/backup//')
 vim.opt.undofile = true
-
